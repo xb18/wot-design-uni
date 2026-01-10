@@ -29,10 +29,6 @@ export default defineConfig({
             link: '/guide/cli-templates',
           },
           {
-            text: '咨询服务',
-            link: '/guide/consultation',
-          },
-          {
             text: '定制主题',
             link: '/guide/custom-theme',
           },
@@ -86,6 +82,8 @@ export default defineConfig({
       },
       { text: '🥤一杯咖啡', link: '/reward/reward', activeMatch: '/reward/' },
       { text: '关于作者', link: 'https://blog.wot-ui.cn/about' },
+      { text: "wot-starter", link: 'https://starter.wot-ui.cn/' },
+      { text: "摸鱼插件", link: 'https://my-uni.wot-ui.cn/' },
       {
         text: '模板', items: [
           { text: '快速上手模板 wot-starter', link: 'https://starter.wot-ui.cn/' },
@@ -119,10 +117,10 @@ export default defineConfig({
           text: '脚手架与模板',
           link: '/guide/cli-templates',
         },
-        {
-          text: '咨询服务',
-          link: '/guide/consultation',
-        },
+        // {
+        //   text: '咨询服务',
+        //   link: '/guide/consultation',
+        // },
         {
           text: '定制主题',
           link: '/guide/custom-theme',
@@ -327,6 +325,10 @@ export default defineConfig({
               text: 'Slider 滑块'
             },
             {
+              link: '/component/slide-verify',
+              text: 'SlideVerify 滑动验证'
+            },
+            {
               link: '/component/switch',
               text: 'Switch 开关'
             },
@@ -431,6 +433,10 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
+              link: '/component/avatar',
+              text: 'Avatar 头像'
+            },
+            {
               link: '/component/badge',
               text: 'Badge 徽标'
             },
@@ -514,7 +520,8 @@ export default defineConfig({
             { text: 'useUpload', link: '/component/use-upload' },
             { text: 'useCountDown', link: '/component/use-count-down' },
             { text: 'useToast', link: '/component/use-toast' },
-            { text: 'useMessage', link: '/component/use-message' }
+            { text: 'useMessage', link: '/component/use-message' },
+            { text: 'useConfigProvider', link: '/component/use-config-provider' }
           ]
         }
       ]

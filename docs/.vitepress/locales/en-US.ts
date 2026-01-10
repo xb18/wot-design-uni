@@ -112,13 +112,13 @@ export default defineConfig({
           link: '/en-US/guide/quick-use',
         },
         {
-          text: 'CLI & Templates',
-          link: '/en-US/guide/cli-templates',
-        },
-        {
-          text: 'Custom Theme',
-          link: '/en-US/guide/custom-theme',
-        },
+            text: 'CLI & Templates',
+            link: '/en-US/guide/cli-templates',
+          },
+          {
+            text: 'Custom Theme',
+            link: '/en-US/guide/custom-theme',
+          },
         {
           text: 'Internationalization',
           link: '/en-US/guide/locale',
@@ -321,6 +321,10 @@ export default defineConfig({
               text: 'Slider'
             },
             {
+              link: '/en-US/component/slide-verify',
+              text: 'SlideVerify'
+            },
+            {
               link: '/en-US/component/switch',
               text: 'Switch'
             },
@@ -425,6 +429,10 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
+              link: '/en-US/component/avatar',
+              text: 'Avatar'
+            },
+            {
               link: '/en-US/component/badge',
               text: 'Badge'
             },
@@ -508,7 +516,8 @@ export default defineConfig({
             { text: 'useUpload', link: '/en-US/component/use-upload' },
             { text: 'useCountDown', link: '/en-US/component/use-count-down' },
             { text: 'useToast', link: '/en-US/component/use-toast' },
-            { text: 'useMessage', link: '/en-US/component/use-message' }
+            { text: 'useMessage', link: '/en-US/component/use-message' },
+            { text: 'useConfigProvider', link: '/en-US/component/use-config-provider' }
           ]
         }
       ]

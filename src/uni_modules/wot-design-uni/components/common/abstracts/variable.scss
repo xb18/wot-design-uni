@@ -179,6 +179,8 @@ $-cell-group-padding: var(--wot-cell-group-padding, 13px $-cell-padding) !defaul
 $-cell-group-title-color: var(--wot-cell-group-title-color, rgba(0, 0, 0, 0.85)) !default; // 组标题文字颜色
 $-cell-group-value-fs: var(--wot-cell-group-value-fs, $-fs-content) !default; // 组值字号
 $-cell-group-value-color: var(--wot-cell-group-value-color, $-color-content) !default; // 组值文字颜色
+$-cell-group-insert-radius: var(--wot-cell-group-insert-radius, 8px) !default; // insert 模式圆角大小
+$-cell-group-insert-margin: var(--wot-cell-group-insert-margin, 0 16px) !default; // insert 模式外边距
 
 $-cell-wrapper-padding: var(--wot-cell-wrapper-padding, 10px) !default; // cell 容器padding
 $-cell-wrapper-padding-large: var(--wot-cell-wrapper-padding-large, 12px) !default; // large类型cell容器padding
@@ -995,4 +997,34 @@ $-tour-primary-button-text-color: var(--wot-tour-primary-button-text-color, $-co
 $-tour-skip-bg-color: var(--wot-tour-skip-bg-color, $-color-white) !default; // 跳过按钮背景色
 $-tour-button-text-color: var(--wot-tour-button-text-color, $-color-black) !default; // 按钮文字默认颜色
 $-tour-highlight-shadow-color: var(--wot-tour-highlight-shadow-color, rgba(0, 0, 0, 0.65)) !default; // 高亮阴影颜色
+
+/* avatar */
+$-avatar-size: var(--wot-avatar-size, 54px) !default; // 默认尺寸
+$-avatar-size-large: var(--wot-avatar-size-large, 76px) !default; // 大尺寸
+$-avatar-size-medium: var(--wot-avatar-size-medium, 64px) !default; // 中尺寸
+$-avatar-size-small: var(--wot-avatar-size-small, 48px) !default; // 小尺寸
+$-avatar-text-color: var(--wot-avatar-text-color, #fff) !default; // 文字颜色
+$-avatar-font-weight: var(--wot-avatar-font-weight, $-fw-medium) !default; // 字重
+$-avatar-font-size: var(--wot-avatar-font-size, 20px) !default; // 默认字号
+$-avatar-font-size-large: var(--wot-avatar-font-size-large, 28px) !default; // 大尺寸字号
+$-avatar-font-size-medium: var(--wot-avatar-font-size-medium, 24px) !default; // 中尺寸字号
+$-avatar-font-size-small: var(--wot-avatar-font-size-small, 18px) !default; // 小尺寸字号
+$-avatar-line-height: var(--wot-avatar-line-height, 1.2) !default; // 行高
+$-avatar-bg-color: var(--wot-avatar-bg-color, $-color-gray-5) !default; // 背景颜色
+$-avatar-border-radius: var(--wot-avatar-border-radius, 8px) !default; // 圆角大小
+
+/* avatar-group */
+$-avatar-group-overlap: var(--wot-avatar-group-overlap, -12px) !default; // 重叠距离
+$-avatar-group-collapse-font-size: var(--wot-avatar-group-collapse-font-size, 12px) !default; // 折叠文字字号
+
+/* slide-verify */
+$-slide-verify-disabled-color: var(--wot-slide-verify-disabled-color, #cccccc) !default; // 禁用文字颜色
+$-slide-verify-text-color: var(--wot-slide-verify-text-color, #333333) !default; // 提示文字颜色
+$-slide-verify-text-size: var(--wot-slide-verify-text-size, 12px) !default; // 提示文字大小
+$-slide-verify-success-text-color: var(--wot-slide-verify-success-text-color, #ffffff) !default; // 成功提示文字颜色
+$-slide-verify-button-bg: var(--wot-slide-verify-button-bg, #ffffff) !default; // 滑块背景色
+$-slide-verify-button-shadow: var(--wot-slide-verify-button-shadow, rgba(0, 0, 0, 0.15)) !default; // 滑块阴影
+$-slide-verify-button-color: var(--wot-slide-verify-button-color, #666666) !default; // 滑块图标颜色
+$-slide-verify-button-size: var(--wot-slide-verify-button-size, 40px) !default; // 滑块尺寸
+$-slide-verify-track-width: var(--wot-slide-verify-track-width, 100%) !default; // 滑道宽度
 

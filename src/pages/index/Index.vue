@@ -221,6 +221,10 @@ const list = computed(() => [
         name: t('slider-hua-kuai')
       },
       {
+        id: 'slideVerify',
+        name: t('slide-verify-hua-dong-yan-zheng')
+      },
+      {
         id: 'switch',
         name: t('switch-kai-guan')
       },
@@ -332,6 +336,10 @@ const list = computed(() => [
     open: false,
     icon: imgModules['../images/icon_nav_show.png'].default,
     pages: [
+      {
+        id: 'avatar',
+        name: t('avatar-tou-xiang')
+      },
       {
         id: 'badge',
         name: t('badge-hui-biao')

@@ -81,6 +81,21 @@
           }
         },
         {
+          "path": "avatar/Index",
+          "name": "avatar",
+          "style": {
+            "mp-alipay": {
+              "allowsBounceVertical": "NO"
+            },
+            // #ifdef MP
+            "navigationBarTitleText": "Avatar 头像",
+            // #endif
+            // #ifndef MP
+            "navigationBarTitleText": "%avatar-title%"
+            // #endif
+          }
+        },
+        {
           "path": "cell/Index",
           "name": "cell",
           "style": {
@@ -722,6 +737,21 @@
             // #endif
             // #ifndef MP
             "navigationBarTitleText": "%skeleton-title%"
+            // #endif
+          }
+        },
+        {
+          "path": "slideVerify/Index",
+          "name": "slideVerify",
+          "style": {
+            "mp-alipay": {
+              "allowsBounceVertical": "NO"
+            },
+            // #ifdef MP
+            "navigationBarTitleText": "SlideVerify 滑动验证",
+            // #endif
+            // #ifndef MP
+            "navigationBarTitleText": "%slide-verify-title%"
             // #endif
           }
         },
