@@ -1,6 +1,6 @@
 # Introduction
 
-The `wot-design-uni` component library is built on `vue3` + `Typescript`, following the design specifications of `wot design`. It provides 70+ high-quality components, supports dark mode, internationalization, and custom themes, aiming to provide developers with unified UI interactions while improving development efficiency.
+The `wot-design-uni` component library is built on `vue3` + `Typescript`, following the design specifications of `wot design`. It provides 80+ high-quality components, supports dark mode, internationalization, and custom themes, aiming to provide developers with unified UI interactions while improving development efficiency.
 
 ## Quick Start
 
@@ -33,7 +33,7 @@ Please refer to the [Quick Start](/en-US/guide/quick-use.html) documentation.
 ## ✨ Features
 
 - 🎯 Multi-platform coverage, supporting WeChat Mini Program, Alipay Mini Program, DingTalk Mini Program, H5, APP, etc.
-- 🚀 70+ high-quality components covering mainstream mobile scenarios.
+- 🚀 80+ high-quality components covering mainstream mobile scenarios.
 - 💪 Built with Typescript, providing a robust component type system.
 - 🌍 Internationalization support with 15 built-in language packs.
 - 📖 Comprehensive documentation and component examples.
@@ -74,7 +74,7 @@ After donation, your nickname and message will be displayed in the [donation lis
 
 - [wot-design](https://github.com/jd-ftf/wot-design-mini) - Thanks to the wot-design team for their continuous maintenance over the years, allowing wot-design-uni to stand on the shoulders of giants.
 - [uni-helper](https://github.com/uni-helper) - Thanks to the uni-helper team for providing the uni-app tool library, making wot-design-uni easier to use.
-- [Donors](https://wot-ui.cn/reward/donor.html) - Thanks to all donors, your donations help wot-design-uni develop better.
+- [Donors](https://v1.wot-ui.cn/reward/donor.html) - Thanks to all donors, your donations help wot-design-uni develop better.
 
 ## License
 

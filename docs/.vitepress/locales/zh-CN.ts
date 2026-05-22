@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import packageConfig from '../../../package.json'
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -102,6 +103,13 @@ export default defineConfig({
           { text: 'uni-ku', link: 'https://github.com/uni-ku' },
         ]
       },
+      {
+        text: `${packageConfig.version}`,
+        items: [
+          { text: 'V2', link: 'https://wot-ui.cn/' },
+          { text: '更新日志', link: '/guide/changelog' },
+        ],
+      },
     ],
     sidebar: {
       '/guide/': [
@@ -117,10 +125,10 @@ export default defineConfig({
           text: '脚手架与模板',
           link: '/guide/cli-templates',
         },
-        // {
-        //   text: '咨询服务',
-        //   link: '/guide/consultation',
-        // },
+        {
+          text: 'AI',
+          link: '/guide/ai',
+        },
         {
           text: '定制主题',
           link: '/guide/custom-theme',
